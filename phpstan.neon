@@ -1,0 +1,6 @@
+services:
+
+	-
+		class: duncan3dc\PHPStan\PropertiesExtension
+		tags:
+			- phpstan.broker.propertiesClassReflectionExtension
